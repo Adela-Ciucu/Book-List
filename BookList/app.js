@@ -60,7 +60,7 @@ document.getElementById('book-form').addEventListener('submit', function(e){
   } else {
     ui.addBookToList(book);
 
-    ui.showAlert('Book Added!', 'succes')
+    ui.showAlert('Book Added!', 'success')
 
     ui.clearFields();  
   }
@@ -74,9 +74,7 @@ document.getElementById('book-list').addEventListener('click', function(e){
 
   ui.deleteBook(e.target);
 
-  ui.showAlert('Book Removed!', 'succes');
+  ui.showAlert('Book Removed!', 'success');
 
   e.preventDefault();
 });
-
-  
